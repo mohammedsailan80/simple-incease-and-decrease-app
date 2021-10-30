@@ -6,6 +6,7 @@ class AddandMinus extends React.Component {
     render(){
         return (
            <Fragment>
+           <h2 className="mt-5">Simple increase and decrease app</h2>
             <div className="card">
                     <form>
                         <input value={this.props.count}  disabled/>
@@ -13,7 +14,7 @@ class AddandMinus extends React.Component {
                         <button onClick={this.props.decrease}>Decrease -1</button>
                     </form>
             </div>
-
+            <p>copyright:<code> eng\Mohammed sailan</code></p>
            </Fragment>
 
         )
